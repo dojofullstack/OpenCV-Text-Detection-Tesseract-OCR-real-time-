@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body class="grey darken-4 white-text ">
+      <h3 align="center" > OCR (Reconocimiento Optico de Caracteres) Real Time</h3>
+       <div align="left" class="col s6">
+           <img height="350" width="350" src={{imagen}}>
+               <h5 align="left"> {{data}}</h5>
+       </div>
+
+
+                 <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  </body>
+  <script type="text/javascript">
+  function actualizar(){location.reload(true);}
+  setInterval("actualizar()",500);
+</script>
+</html>
